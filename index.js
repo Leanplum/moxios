@@ -387,4 +387,5 @@ let moxios = {
   }
 }
 
-export default moxios
+module.exports = moxios;
+module.exports.default = moxios;
